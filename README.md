@@ -1,3 +1,6 @@
+# Return Leetcode Dislikes
+A Chrome extension to show the number of dislikes for leetcode problems
+
 ## Development 
 ### Setup
 ```console
