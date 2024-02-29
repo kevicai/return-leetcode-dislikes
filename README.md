@@ -16,7 +16,7 @@ $ npm run build
 1. Go to chrome://extensions/
 2. Turn on "Developer mode" at top right corner
 3. Click "Load unpacked" at top left corner and select the dist folder in this repo
-### Testing
+### Running
 1. Click the reload button in th extensions page  
 2. Go to a leetcode problem page and check browser console for values
 
