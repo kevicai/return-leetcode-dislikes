@@ -6,7 +6,7 @@
 
             const count = await getProblemDislikeCount(problemName);
             console.log(problemName, count);
-            showDislikeCount(count);
+            showDislikeCount(parseNumber(count));
         }
     );
 })();
@@ -33,15 +33,31 @@ async function getProblemDislikeCount(problemName: string) {
     return json?.data?.question?.dislikes;
 }
 
-function showDislikeCount(count: number) {
-    if (count == undefined) return;
-
-    const buttons = document.querySelectorAll(".flexlayout__tab button");
-    
-    if (buttons.length > 2) {
-        console.log("Showing dislike count");
-        const dislikeButton = buttons[1];
-        // dislike button is the second button
-        dislikeButton.innerHTML += `<div>${count}<div>`;
+function parseNumber(number: number): string {
+    if (number < 1000) {
+        return number.toString();
+    } else {
+        return (number / 1000).toFixed(2) + "K";
     }
+}
+
+function showDislikeCount(count: number | string) {
+    console.log("showing dislike count");
+    // Create or update the overlay element
+    let overlay = document.getElementById("dislike-overlay");
+    if (!overlay) {
+        overlay = document.createElement("div");
+        overlay.id = "dislike-overlay";
+        overlay.style.position = "fixed";
+        overlay.style.bottom = "45px";
+        overlay.style.left = "13px";
+        overlay.style.backgroundColor = "rgb(60,60,60)";
+        overlay.style.color = "white";
+        overlay.style.padding = "5px 8px";
+        overlay.style.borderRadius = "7px";
+        document.body.appendChild(overlay);
+    }
+
+    // Update the content of the overlay with the dislike count
+    overlay.textContent = `Dislikes: ${count}`;
 }

@@ -1,0 +1,1 @@
+(()=>{"use strict";chrome.storage.local.get(["dislikeCount"],(function(e){const t=e.dislikeCount||0,n=document.getElementById("dislikeCount");n&&(n.innerHTML=t)}))})();
