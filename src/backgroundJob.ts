@@ -1,12 +1,11 @@
-chrome.tabs.onUpdated.addListener(async (tabId, tab) => {
-    if (tab.url && tab.url.includes("leetcode.com/problems")) {
-        // extract the problem name from url
+// Listen for tab updates
+chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
+    if (changeInfo.status === "complete" && tab.url && tab.url.includes("leetcode.com/problems")) {
+        // Extract the problem name from the URL
         const match = tab.url.match(/leetcode.com\/problems\/([^/?]+)/);
-        const problemName = match && match[0].split("/")[2]
-        // pin content scripts
-        chrome.tabs.sendMessage(tabId, {
-            problemName,
-        } as problemNameMsg);
+        const problemName = match && match[0].split("/")[2];
+        // Pin content scripts
+        chrome.tabs.sendMessage(tabId, { problemName } as problemNameMsg);
     }
 });
 
