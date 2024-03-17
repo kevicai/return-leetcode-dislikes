@@ -1,6 +1,10 @@
 # Return Leetcode Dislikes
 A Chrome extension to show the number of dislikes for leetcode problems
 
+![image](https://github.com/kevicai/return-leetcode-dislikes/assets/74110291/2445f7fd-5a33-4cdb-8558-50e49cb9af7e)
+![image](https://github.com/kevicai/return-leetcode-dislikes/assets/74110291/cf831faf-41d4-4312-9704-e898196d1468)
+
+
 ## Development 
 ### Setup
 ```console
