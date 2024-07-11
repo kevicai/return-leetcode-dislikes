@@ -52,9 +52,10 @@ function showDislikeCount(count: number | string) {
         overlay.style.bottom = "45px";
         overlay.style.left = "13px";
         overlay.style.backgroundColor = "rgb(60,60,60)";
-        overlay.style.color = "white";
+        overlay.style.color = "rgba(255,255,255, 0.7)";
         overlay.style.padding = "5px 8px";
         overlay.style.borderRadius = "7px";
+        overlay.style.fontWeight = "600";
         document.body.appendChild(overlay);
     }
 

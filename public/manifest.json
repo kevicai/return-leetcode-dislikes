@@ -1,11 +1,10 @@
 {
     "name": "Return Leetcode Dislikes",
-    "description": "This extension shows dislikes for Leetcode questions",
+    "description": "This extension shows the number of dislikes for Leetcode questions",
     "version": "0.1.0",
     "manifest_version": 3,
     "permissions": [
-        "activeTab",
-        "scripting"
+        "activeTab"
     ],
     "host_permissions": [
         "https://*.leetcode.com/problems/*"
@@ -27,5 +26,11 @@
         "default_icon": {},
         "default_title": "Return Leetcode Dislikes",
         "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
     }
 }
