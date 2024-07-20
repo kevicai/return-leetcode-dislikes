@@ -2,7 +2,7 @@
 
 A Chrome extension to show the number of dislikes for leetcode problems
 
-[Install link](https://chromewebstore.google.com/detail/return-leetcode-dislikes/dicljlkoaepceogdhchkpgijkjjpmebg?hl=en-US&authuser=0)
+-->[Install link](https://chromewebstore.google.com/detail/return-leetcode-dislikes/dicljlkoaepceogdhchkpgijkjjpmebg?hl=en-US&authuser=0)<--
 
 I made a simple chrome extension to show the number of dislikes for problems on Leetcode, hope it helps!
 
