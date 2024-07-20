@@ -1,6 +1,9 @@
 # ![icon48](https://github.com/kevicai/return-leetcode-dislikes/assets/74110291/4acac24b-cae8-45f3-981d-6fbe8ae7eb13) Return Leetcode Dislikes 
 
 A Chrome extension to show the number of dislikes for leetcode problems
+Published: https://chromewebstore.google.com/detail/return-leetcode-dislikes/dicljlkoaepceogdhchkpgijkjjpmebg?hl=en-US&authuser=0
+
+I made a simple chrome extension to show the number of dislikes for problems on Leetcode, hope it helps!
 
 Leet code no longer shows a dislike count on the web version. So I made this extension to see the number of dislikes retrieved from their GraphQL api:
 
