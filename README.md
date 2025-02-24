@@ -1,8 +1,8 @@
 # ![icon48](https://github.com/kevicai/return-leetcode-dislikes/assets/74110291/4acac24b-cae8-45f3-981d-6fbe8ae7eb13) Return Leetcode Dislikes 
-![image](https://github.com/user-attachments/assets/a406edd8-9ac7-49da-8437-9bf4267b3279)
+![image](https://github.com/user-attachments/assets/24d082dc-58b9-4f73-a719-14ceac32ec0f)
 A Chrome extension to show the number of dislikes for leetcode problems
 
--->[Install link](https://chromewebstore.google.com/detail/return-leetcode-dislikes/dicljlkoaepceogdhchkpgijkjjpmebg?hl=en-US&authuser=0)<--
+-->[Install at Chrome Extension Store](https://chromewebstore.google.com/detail/return-leetcode-dislikes/dicljlkoaepceogdhchkpgijkjjpmebg?hl=en-US&authuser=0)<--
 
 I made a simple chrome extension to show the number of dislikes for problems on Leetcode, hope it helps!
 
